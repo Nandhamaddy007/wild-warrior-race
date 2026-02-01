@@ -1,0 +1,14 @@
+.slideshow-wrapper{
+    height:33vw;
+    width:99vw;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.slideshow{
+    display: flex;
+    gap:2vw;
+    margin-top:2vw;
+}
+.slide-image{
+    height:25vw;
+}
