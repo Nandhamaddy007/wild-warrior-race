@@ -1,5 +1,11 @@
 
+.vision-container{
+    padding:0 5vw;
+    color: white;
+    font-family: "Open Sans Condensed", sans-serif;
+}
 .vision-img{
-    height: 18vw;
+    height: 16vw;
     margin-left: 2vw;
+    border-radius: 10px;
 }

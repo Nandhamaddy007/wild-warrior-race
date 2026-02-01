@@ -1,3 +1,74 @@
+@font-face {
+  font-family: 'MissionAccomplish';
+  src: local('MissionAccomplish'),
+       url('./assets/font/MissionAccomplish.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: local('Open Sans Condensed'),
+       url('./assets/font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .component-container{
     margin-top:2vw;
+}
+.main-bg{
+    background-color:black;
+    background-image: url("./assets/background/bull-head.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: 37%;
+}
+
+.comp-title{
+    font-size: 4vw;
+    font-family: 'MissionAccomplish', sans-serif;
+    font-weight: 700;
+    margin-left:1vw;
+    color:rgb(227, 95, 18);
+    margin:3vw 1vw;
+    
+}
+
+.slideshow{
+    display: flex;
+    gap:2vw;
+    margin-top:2vw;
+
+
+}
+.slide-image{
+    height:25vw;
+    cursor: pointer;
+}
+.slide-image:hover{
+    transform: scale(1.01) translateY(-5px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.know-more-btn{
+  color: white;
+    float: right;
+    margin: 0 3vw;
+    background: rgb(227, 95, 18);
+    width: fit-content;
+    padding: 1vw 2vw;
+    border-radius: 7px;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+}
+.know-more-btn:hover{
+    background: #e36b13;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 200ms;
 }

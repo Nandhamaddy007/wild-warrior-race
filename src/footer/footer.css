@@ -1,0 +1,27 @@
+.footer-container{
+    background-color: #f57d28;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-links {
+    margin:1vw;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin: 2vw 1vw;
+    margin-bottom:3vw;
+    padding:1vw;
+    border-radius: 5px;
+}
+.footer-links a:hover{
+    background-color: #000000;
+    transition: 200ms;
+}
+.footer-block{
+    margin:2vw;
+    font-size:1.5vw;
+    font-weight: 600;
+}

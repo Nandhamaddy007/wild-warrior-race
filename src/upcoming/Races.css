@@ -1,14 +1,41 @@
 .slideshow-wrapper{
-    height:33vw;
-    width:99vw;
+    height:40vw;
+    width:90vw;
     overflow-x: scroll;
     scrollbar-width: none;
+    margin:0 4vw;
 }
-.slideshow{
+.slideshow-race{
     display: flex;
     gap:2vw;
     margin-top:2vw;
+    padding: 0 5vw;
+    justify-content: center;
+
 }
-.slide-image{
-    height:25vw;
+.slide-image-race{
+    height:38vw;
+    cursor: pointer;
+}
+.slide-image:hover{
+    transform: scale(1.01) translateY(-5px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.race-popup{
+    background-color: #848484a3;
+    padding: 1vw;
+    border-radius: 12px;
+    height:90vh;
+}
+.race-body{
+    height:100%;
+    width:70vw;
+    
+}
+
+.popup-image{
+    height:41vw;
+    cursor: pointer;
+    padding:3vw;
 }

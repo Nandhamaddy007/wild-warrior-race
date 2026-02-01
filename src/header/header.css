@@ -8,12 +8,13 @@
     font-size: 15px; /* Font size */
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .header h1 {
     margin: 0; /* Remove default margin */
     cursor: pointer;
-    font-family: Open Sans Condensed, sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
 }
 
 .header nav a {
@@ -22,7 +23,7 @@
     text-decoration: none; /* Remove underline */
     border-radius: 10px;
     transition: 200ms;
-    font-family: Open Sans Condensed, sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
 }
 nav ul{
     display: flex;

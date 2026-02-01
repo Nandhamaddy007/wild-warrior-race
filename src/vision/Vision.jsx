@@ -7,7 +7,7 @@ const Vision = () => {
     return (
         <div className="vision">
              <h1 className='comp-title'>Our Vision</h1>
-            <div className='vision-container row p-2'>
+            <div className='vision-container row'>
               <div className='left-vision col-4'>
                 <p>Building a community of 1M+ Warriors by 2040.</p>
                 <p>FIT & HEALTHY community through engaging events centered around

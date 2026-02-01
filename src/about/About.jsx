@@ -72,7 +72,7 @@ export default function About() {
 
             </div>
             <div className='founders-container'>
-            <h2 className='founders-title'>MEET THE FOUNDERS</h2>
+            <h2 className='comp-title'>MEET THE FOUNDERS</h2>
             <div className='founders-cards row w-100 m-1'>
                 {founders.map((founder, index)=>(
                     <div className='col-3' key={index}>

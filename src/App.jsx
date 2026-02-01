@@ -11,13 +11,15 @@ import WWX from './wwx/wwx'
 function App() {
   return (
     <>
-    <Header />
+   <div className='main-bg'>
+     <Header />
     <About />
     <Races />
     <WWX />
     <ObstacleInfra />
     <Vision />
     <Footer />
+   </div>
     </>
   )
   
